@@ -143,7 +143,7 @@ nav ul li ul li:hover {
 /* Background color change on Hover */
 
 nav a:hover {
-    color: #333333;
+    color: #d5142c;
 }
 
 .menu li.active a {
@@ -950,7 +950,7 @@ section.gallery {
 }
 
 .service-content {
-    margin-left: 1em;
+    margin-left: 15px;
     text-align: left;
 }
 

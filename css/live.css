@@ -1,0 +1,36 @@
+.live {
+    overflow: hidden;
+}
+.live > li {
+    list-style: none;
+    position: relative;
+    padding: 0 0 0 2em;
+    margin: 0 0 .5em 10px;
+    -webkit-transition: .12s;
+    transition: .12s;
+}
+.live > li::before {
+    position: absolute;
+    content: '\2022';
+    font-family: Arial;
+    color: #000000;
+    top: 0;
+    left: 0;
+    text-align: center;
+    font-size: 2em;
+    opacity: .5;
+    -webkit-transition: .5s;
+    transition: .5s;
+}
+.live > li:hover {
+    color: #000000;
+}
+.live > li:hover::before {
+    -webkit-transform: scale(2);
+    -ms-transform: scale(2);
+    transform: scale(2);
+    opacity: 1;
+    text-shadow: 0 0 4px;
+    -webkit-transition: .1s;
+    transition: .1s;
+}
