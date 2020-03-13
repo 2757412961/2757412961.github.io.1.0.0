@@ -143,7 +143,7 @@ nav ul li ul li:hover {
 /* Background color change on Hover */
 
 nav a:hover {
-    color: #003399;
+    color: #333333;
 }
 
 .menu li.active a {
