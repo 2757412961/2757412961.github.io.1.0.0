@@ -32,34 +32,44 @@
     <!-- font-awesome icons -->
     <link href="css/fontawesome-all.min.css" rel="stylesheet">
     <!-- //Custom Theme files -->
+    <link href="css/MyCss.css" rel="stylesheet">
     <!-- online-fonts -->
-    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900" rel="stylesheet">
+<!--    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900" rel="stylesheet">-->
     <!-- //online-fonts -->
 </head>
 <body>
     <!--基本信息-->
     <div class="sidenav">
-		<div class="side_top">
+		<div class="side_top text-center">
             <!--头像-->
-			<img src="images/t3.jpg" alt="news image" class="img-fluid navimg">
-			<h1> Eu ac iaculis ac nunc nisi lorem <br>vulputate lorem neque cubilia ac in <br>adipiscing in curae</h1>
+            <img src="images/Head_portrait.jpg" alt="news image" class="img-fluid navimg">
+            <h1 style=" color: rgba(255, 255, 255, 0.8);
+                        font-size: 1.5em;
+                        line-height: 1.75em;">
+                <span class="glyphicon glyphicon-user"></span>&nbsp;&nbsp;赵佳晖<br>
+                <span class="glyphicon glyphicon-earphone"></span>&nbsp;&nbsp;123-4567-8910<br>
+                <span class="glyphicon glyphicon-envelope"></span>&nbsp;&nbsp;zhaojiahui25@163.com<br>
+                <span class="glyphicon glyphicon-map-marker"></span>&nbsp;&nbsp;中国杭州 浙江大学 玉泉校区
+            </h1>
 		</div>
 		<!-- header -->
 		<header>
-			<div class="container-fluid px-lg-5 ">
-				<nav class="mnu mx-auto">
-                    <label for="drop" class="toggle">Menu</label>
-                    <input type="checkbox" id="drop">
-						<ul class="menu">
-							<li class="active"><a href="index.html">Home</a></li>
-							 <li class="mt-sm-3"><a href="#about" class="scroll">About</a></li>
-							 <li class="mt-sm-3"><a href="#gallery" class="scroll">Gallery</a></li>
-							<li class="mt-sm-3"><a href="#services" class="scroll">Services</a></li>
-							<li class="mt-sm-3"><a href="#news" class="scroll">News</a></li>
-                            <li class="mt-sm-3"><a href="#contact" class="scroll">Contact</a></li>
+            <div style="width: 50%; height: 100%; margin: 20px; background-color: #fffaff; opacity: 50%">
+                <div class="container-fluid">
+                    <nav>
+                        <!--                    <label for="drop" class="toggle">Menu</label>-->
+                        <input type="checkbox" id="drop">
+                        <ul class="menu text-center">
+                            <li class="active"><a href="index.html" class="myMenu">主页</a></li>
+                            <li class="mt-sm-4"><a href="#about" class="scroll myMenu">个人信息</a></li>
+                            <li class="mt-sm-4"><a href="#news" class="scroll myMenu">兴趣爱好</a></li>
+                            <li class="mt-sm-4"><a href="#services" class="scroll myMenu">我的经历</a></li>
+                            <li class="mt-sm-4"><a href="#gallery" class="scroll myMenu">摄影作品</a></li>
+                            <li class="mt-sm-4"><a href="#contact" class="scroll myMenu">联系</a></li>
                         </ul>
-				</nav>
-			</div>
+                    </nav>
+                </div>
+            </div>
 		</header>
     </div>
 
@@ -339,6 +349,8 @@
 	 <!-- //contact -->
     </div>
 
+    <script type="text/javascript" color="0,0,255" opacity='0.7' zIndex="-2" count="99"
+            src="//cdn.bootcss.com/canvas-nest.js/1.0.1/canvas-nest.min.js"></script>
 
     <!-- jQuery (Bootstrap 的所有 JavaScript 插件都依赖 jQuery，所以必须放在前边) -->
     <script src="https://cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js"></script>
