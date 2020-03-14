@@ -139,6 +139,16 @@
 }
 
 #tagscloud a.tagc2 {
+    background: #f1c33a;
+    color: #fff;
+}
+
+#tagscloud a.tagc3 {
+    background: #de41f1;
+    color: #fff;
+}
+
+#tagscloud a.tagc4 {
     background: #F16E50;
     color: #fff;
 }
